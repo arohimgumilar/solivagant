@@ -20,7 +20,12 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(/images/main-image.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(250, 244, 222, 0.1),
+      rgba(2, 154, 167, 0.8)
+    ),
+    url("/images/main-image.jpg");
   background-size: cover;
   color: white;
   text-align: center;
