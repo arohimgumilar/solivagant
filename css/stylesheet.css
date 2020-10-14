@@ -120,7 +120,7 @@ header {
 
 .heading {
   padding-top: 80px;
-  padding-bottom: 500px;
+  padding-bottom: 50px;
   color: #5f5d60;
 }
 
@@ -138,19 +138,26 @@ header {
 }
 
 .lesson-icon p {
-  position: absolute;
+  position: relative;
   top: 100%;
   width: 100%;
+  margin-bottom: 15px;
   color: #b3aeb5;
 }
 
-.txt-contens {
+.text-contens {
+  position: relative;
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
 }
+
+.clear {
+  clear: left;
+}
+
 
 footer img {
   width: 125px;
