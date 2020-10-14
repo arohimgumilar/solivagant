@@ -109,6 +109,10 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
@@ -134,22 +138,33 @@ header {
 }
 
 .foto {
-  width: 90%;
+  width: 95%;
   height: 200px;
   margin-top: 20px;
-  margin-right: 10px
+  border-radius: 11px;
+}
+
+.foto:hover {
+  box-shadow: 2px 2px 6px 0px rgba(55, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .lesson-icon {
   position: relative;
 }
 
-.lesson-icon p {
+.judul {
   position: relative;
   top: 100%;
   width: 100%;
   margin-bottom: 15px;
-  color: #b3aeb5;
+  color: #e74c3c;
+}
+
+.judul:hover {
+  opacity: 1;
+  color: #16a085;
+  cursor: pointer;
 }
 
 .text-contens {
@@ -164,7 +179,6 @@ header {
 .clear {
   clear: left;
 }
-
 
 footer img {
   width: 125px;
