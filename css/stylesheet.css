@@ -73,6 +73,18 @@ a {
   opacity: 1;
 }
 
+.fa {
+  margin-right: 5px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 header {
   height: 65px;
   width: 100%;
@@ -114,7 +126,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 500px;
+  height: 700px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -178,6 +190,25 @@ header {
 
 .clear {
   clear: left;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 footer img {
