@@ -1,0 +1,19 @@
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.heading h3 {
+  font-weight: normal;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
