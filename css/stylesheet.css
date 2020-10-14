@@ -133,6 +133,13 @@ header {
   width: 25%;
 }
 
+.foto {
+  width: 90%;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 10px
+}
+
 .lesson-icon {
   position: relative;
 }
