@@ -1,5 +1,8 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .fa fa menu-icon {
+    display: block;
+    
   .lesson {
     width: 50%;
     margin-bottom: 50px;
