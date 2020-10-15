@@ -2,13 +2,29 @@
   box-sizing: border-box;
 }
 
-body {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .clear {
@@ -29,7 +45,7 @@ a {
       rgba(250, 244, 222, 0.1),
       rgba(2, 154, 167, 0.8)
     ),
-    url("images/main-image.jpg");
+    url("https://i.pinimg.com/originals/e0/90/48/e09048e1d3b6be2a67e1010b040850c9.jpg");
   background-size: cover;
   color: white;
   text-align: center;
@@ -61,7 +77,12 @@ a {
 }
 
 .signup {
-  background-color: #d23838;
+  background-color: #008000;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
 }
 
 .btn {
@@ -125,10 +146,8 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-
-
-.lesson-wrapper {
-  height: 700px;
+.location-wrapper {
+  height: 650px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -146,7 +165,7 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.location {
   float: left;
   width: 25%;
 }
@@ -163,7 +182,7 @@ header {
   cursor: pointer;
 }
 
-.lesson-icon {
+.location-icon {
   position: relative;
 }
 
@@ -181,17 +200,13 @@ header {
   cursor: pointer;
 }
 
-.text-contens {
+.text-contents {
   position: relative;
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
-}
-
-.clear {
-  clear: left;
 }
 
 .message-wrapper {
@@ -212,13 +227,14 @@ header {
   top: 7px;
   box-shadow: none;
 }
+footer h4 {
+  color: #605f61;
 
-footer img {
-  width: 125px;
+  text-align: center;
 }
 
 footer p {
-  color: #b3aeb5;
+  color: #605f61;
   font-size: 12px;
   text-align: center;
 }
