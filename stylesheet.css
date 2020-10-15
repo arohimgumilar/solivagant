@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -121,9 +125,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 .lesson-wrapper {
   height: 700px;
